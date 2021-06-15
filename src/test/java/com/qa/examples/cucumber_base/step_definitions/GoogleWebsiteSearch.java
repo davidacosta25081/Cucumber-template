@@ -1,5 +1,7 @@
 package com.qa.examples.cucumber_base.step_definitions;
 
+import static org.junit.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +34,9 @@ public class GoogleWebsiteSearch {
 	@Then("display results")
 	public void displayResults() {
 	  searchBar.submit();
+	  System.out.println(driver.getTitle());
+	  assertEquals("www.nytimes.com - Buscar con Google", driver.getTitle());
+	
 	}
 
 
