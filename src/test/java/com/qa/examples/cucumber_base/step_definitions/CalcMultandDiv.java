@@ -24,7 +24,6 @@ public class CalcMultandDiv {
 	@When("{int} by {int} are multiply")
 	public void byAreMultiply(Integer int1, Integer int2) {
 	    this.actualResult = calculator.multiply(int1, int2);
-	    throw new io.cucumber.java.PendingException();
 	}
 
 
@@ -32,7 +31,6 @@ public class CalcMultandDiv {
 	@When("{int} is divided by {int}")
 	public void isDividedBy(Integer int1, Integer int2) {
 		this.actualResult = calculator.divide(int1, int2);
-	    throw new io.cucumber.java.PendingException();
 	}
 
 

@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.192">
-    <testcase classname="Navigating and searching a google page" name="Use Chromedriver to make a search on google" time="0.04">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Open Chrome and launch Google.........................................undefined
-When typing website name on the search bar..................................skipped
-Then display results........................................................skipped
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="6.82">
+    <testcase classname="Use the calculator to multiply and divide." name="8 times 8 is 64" time="0.044">
+        <system-out><![CDATA[Given a new calculator......................................................passed
+When 8 by 8 are multiply....................................................passed
+Then the result should be = 64..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Use the calculator to multiply and divide." name="30 divided by 6 is 5" time="0.001">
+        <system-out><![CDATA[Given a new calculator......................................................passed
+When 30 is divided by 6.....................................................passed
+Then the result should be = 5...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate addition and subtraction correctly?" name="3 add 4 is 7" time="0.005">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 3 and 4 are added......................................................passed
+Then the result should be 7.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Can calculate addition and subtraction correctly?" name="4 subtract 3 is 1" time="0.001">
+        <system-out><![CDATA[Given a calculator..........................................................passed
+When 3 is subtracted from 4.................................................passed
+Then the result should be 1.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Navigating and searching a google page" name="Use Chromedriver to make a search on google" time="6.608">
+        <system-out><![CDATA[Given Open Chrome and launch Google.........................................passed
+When typing website name on the search bar..................................passed
+Then display results........................................................passed
+]]></system-out>
     </testcase>
 </testsuite>
