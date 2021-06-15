@@ -32,4 +32,8 @@ public class CanCalculateAdditionAndSubtraction {
 	public void theResultShouldBe(Integer expectedResult) {
 	    assertEquals(expectedResult.doubleValue(), actualResult, 2);
 	}
+
+
+
+
 }
