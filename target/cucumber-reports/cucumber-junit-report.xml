@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.197">
-    <testcase classname="Use the calculator to multiply and divide." name="8 times 8 is 64" time="0.043">
-        <failure message="Cannot invoke &quot;com.qa.examples.cucumber_base.Calculator.multiply(double, double)&quot; because &quot;this.calculator&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given a calculator..........................................................passed
-When 8 by 8 are multiply....................................................failed
-Then the result should be = 64..............................................skipped
-
-StackTrace:
-java.lang.NullPointerException: Cannot invoke "com.qa.examples.cucumber_base.Calculator.multiply(double, double)" because "this.calculator" is null
-	at com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.byAreMultiply(CalcMultandDiv.java:26)
-	at ✽.8 by 8 are multiply(classpath:features/calculate-mult-abd-div.feature:8)
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.192">
+    <testcase classname="Navigating and searching a google page" name="Use Chromedriver to make a search on google" time="0.04">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Open Chrome and launch Google.........................................undefined
+When typing website name on the search bar..................................skipped
+Then display results........................................................skipped
 ]]></failure>
-    </testcase>
-    <testcase classname="Use the calculator to multiply and divide." name="30 divided by 6 is 5" time="0.002">
-        <failure message="Cannot invoke &quot;com.qa.examples.cucumber_base.Calculator.divide(double, double)&quot; because &quot;this.calculator&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given a calculator..........................................................passed
-When 30 is divided by 6.....................................................failed
-Then the result should be = 5...............................................skipped
-
-StackTrace:
-java.lang.NullPointerException: Cannot invoke "com.qa.examples.cucumber_base.Calculator.divide(double, double)" because "this.calculator" is null
-	at com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.isDividedBy(CalcMultandDiv.java:34)
-	at ✽.30 is divided by 6(classpath:features/calculate-mult-abd-div.feature:14)
-]]></failure>
-    </testcase>
-    <testcase classname="Can calculate addition and subtraction correctly?" name="3 add 4 is 7" time="0.006">
-        <system-out><![CDATA[Given a calculator..........................................................passed
-When 3 and 4 are added......................................................passed
-Then the result should be 7.................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Can calculate addition and subtraction correctly?" name="4 subtract 3 is 1" time="0.001">
-        <system-out><![CDATA[Given a calculator..........................................................passed
-When 3 is subtracted from 4.................................................passed
-Then the result should be 1.................................................passed
-]]></system-out>
     </testcase>
 </testsuite>

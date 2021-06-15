@@ -3,276 +3,51 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-15T02:07:48.865Z",
-        "line": 6,
-        "name": "8 times 8 is 64",
+        "start_timestamp": "2021-06-15T03:53:05.316Z",
+        "line": 4,
+        "name": "Use Chromedriver to make a search on google",
         "description": "",
-        "id": "use-the-calculator-to-multiply-and-divide.;8-times-8-is-64",
+        "id": "navigating-and-searching-a-google-page;use-chromedriver-to-make-a-search-on-google",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1347000,
-              "status": "passed"
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Open Chrome and launch Google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169000,
+              "status": "skipped"
             },
             "line": 7,
-            "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
-            "keyword": "Given "
+            "name": "typing website name on the search bar",
+            "match": {},
+            "keyword": "When "
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.qa.examples.cucumber_base.Calculator.multiply(double, double)\" because \"this.calculator\" is null\n\tat com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.byAreMultiply(CalcMultandDiv.java:26)\n\tat ✽.8 by 8 are multiply(classpath:features/calculate-mult-abd-div.feature:8)\n",
-              "duration": 1633000,
-              "status": "failed"
+              "duration": 133000,
+              "status": "skipped"
             },
             "line": 8,
-            "name": "8 by 8 are multiply",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8",
-                  "offset": 0
-                },
-                {
-                  "val": "8",
-                  "offset": 5
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.byAreMultiply(java.lang.Integer,java.lang.Integer)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 200000,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "the result should be \u003d 64",
-            "match": {
-              "arguments": [
-                {
-                  "val": "64",
-                  "offset": 23
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.theResultShouldBeMD(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-06-15T02:07:48.919Z",
-        "line": 12,
-        "name": "30 divided by 6 is 5",
-        "description": "",
-        "id": "use-the-calculator-to-multiply-and-divide.;30-divided-by-6-is-5",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 180000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.qa.examples.cucumber_base.Calculator.divide(double, double)\" because \"this.calculator\" is null\n\tat com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.isDividedBy(CalcMultandDiv.java:34)\n\tat ✽.30 is divided by 6(classpath:features/calculate-mult-abd-div.feature:14)\n",
-              "duration": 359000,
-              "status": "failed"
-            },
-            "line": 14,
-            "name": "30 is divided by 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "30",
-                  "offset": 0
-                },
-                {
-                  "val": "6",
-                  "offset": 17
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.isDividedBy(java.lang.Integer,java.lang.Integer)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 108000,
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "the result should be \u003d 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 23
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.theResultShouldBeMD(java.lang.Integer)"
-            },
+            "name": "display results",
+            "match": {},
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Use the calculator to multiply and divide.",
+    "name": "Navigating and searching a google page",
     "description": "",
-    "id": "use-the-calculator-to-multiply-and-divide.",
+    "id": "navigating-and-searching-a-google-page",
     "keyword": "Feature",
-    "uri": "classpath:features/calculate-mult-abd-div.feature",
-    "tags": []
-  },
-  {
-    "line": 3,
-    "elements": [
-      {
-        "start_timestamp": "2021-06-15T02:07:48.926Z",
-        "line": 7,
-        "name": "3 add 4 is 7",
-        "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;3-add-4-is-7",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 211000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 525000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "3 and 4 are added",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 0
-                },
-                {
-                  "val": "4",
-                  "offset": 6
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.andAreAdded(java.lang.Integer,java.lang.Integer)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1114000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "the result should be 7",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.theResultShouldBe(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-06-15T02:07:48.937Z",
-        "line": 12,
-        "name": "4 subtract 3 is 1",
-        "description": "",
-        "id": "can-calculate-addition-and-subtraction-correctly?;4-subtract-3-is-1",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 165000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 193000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "3 is subtracted from 4",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 0
-                },
-                {
-                  "val": "4",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.isSubtractedFrom(java.lang.Integer,java.lang.Integer)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 121000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the result should be 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.theResultShouldBe(java.lang.Integer)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Can calculate addition and subtraction correctly?",
-    "description": "  To test whether addition and subtraction return the correct\n  results.",
-    "id": "can-calculate-addition-and-subtraction-correctly?",
-    "keyword": "Feature",
-    "uri": "classpath:features/can-calculate-addition-and-subtraction.feature",
+    "uri": "classpath:features/searching-google-page.feature",
     "tags": []
   }
 ]
