@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="5.966">
-    <testcase classname="Use the calculator to multiply and divide." name="8 times 8 is 64" time="0.039">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="6.117">
+    <testcase classname="Use the calculator to multiply and divide." name="8 times 8 is 64" time="0.04">
         <system-out><![CDATA[Given a new calculator......................................................passed
 When 8 by 8 are multiply....................................................passed
 Then the result should be = 64..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Use the calculator to multiply and divide." name="30 divided by 6 is 5" time="0.001">
+    <testcase classname="Use the calculator to multiply and divide." name="30 divided by 6 is 5" time="0.002">
         <system-out><![CDATA[Given a new calculator......................................................passed
 When 30 is divided by 6.....................................................passed
 Then the result should be = 5...............................................passed
@@ -24,7 +24,7 @@ When 3 is subtracted from 4.................................................pass
 Then the result should be 1.................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Navigating and searching a google page" name="Use Chromedriver to make a search on google" time="5.773">
+    <testcase classname="Navigating and searching a google page" name="Use Chromedriver to make a search on google" time="5.919">
         <system-out><![CDATA[Given Open Chrome and launch Google.........................................passed
 When typing website name on the search bar..................................passed
 Then display results........................................................passed
