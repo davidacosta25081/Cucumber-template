@@ -3,127 +3,125 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T20:07:30.099Z",
+        "start_timestamp": "2021-06-17T13:50:31.475Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1267657000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
         "line": 3,
         "name": "8 times 8 is 64",
         "description": "",
         "id": "use-the-calculator-to-multiply-and-divide.;8-times-8-is-64",
+        "after": [
+          {
+            "result": {
+              "duration": 3079904000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1191000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
             "name": "a new calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.aCalculator()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 711000,
-              "status": "passed"
+              "duration": 133000,
+              "status": "skipped"
             },
             "line": 5,
             "name": "8 by 8 are multiply",
-            "match": {
-              "arguments": [
-                {
-                  "val": "8",
-                  "offset": 0
-                },
-                {
-                  "val": "8",
-                  "offset": 5
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.byAreMultiply(java.lang.Integer,java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1221000,
-              "status": "passed"
+              "duration": 245000,
+              "status": "skipped"
             },
             "line": 6,
             "name": "the result should be \u003d 64",
-            "match": {
-              "arguments": [
-                {
-                  "val": "64",
-                  "offset": 23
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.theResultShouldBeMD(java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-16T20:07:30.154Z",
+        "start_timestamp": "2021-06-17T13:50:35.874Z",
+        "before": [
+          {
+            "result": {
+              "duration": 954620000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
         "line": 9,
         "name": "30 divided by 6 is 5",
         "description": "",
         "id": "use-the-calculator-to-multiply-and-divide.;30-divided-by-6-is-5",
+        "after": [
+          {
+            "result": {
+              "duration": 3081447000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 170000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
             "name": "a new calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.aCalculator()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 164000,
-              "status": "passed"
+              "duration": 500000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "30 is divided by 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "30",
-                  "offset": 0
-                },
-                {
-                  "val": "6",
-                  "offset": 17
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.isDividedBy(java.lang.Integer,java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 124000,
-              "status": "passed"
+              "duration": 108000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "the result should be \u003d 5",
-            "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 23
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CalcMultandDiv.theResultShouldBeMD(java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -140,127 +138,125 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T20:07:30.161Z",
+        "start_timestamp": "2021-06-17T13:50:39.919Z",
+        "before": [
+          {
+            "result": {
+              "duration": 942177000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
         "line": 7,
         "name": "3 add 4 is 7",
         "description": "",
         "id": "can-calculate-addition-and-subtraction-correctly?;3-add-4-is-7",
+        "after": [
+          {
+            "result": {
+              "duration": 3078358000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 282000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
             "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 622000,
-              "status": "passed"
+              "duration": 192000,
+              "status": "skipped"
             },
             "line": 9,
             "name": "3 and 4 are added",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 0
-                },
-                {
-                  "val": "4",
-                  "offset": 6
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.andAreAdded(java.lang.Integer,java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 153000,
-              "status": "passed"
+              "duration": 93000,
+              "status": "skipped"
             },
             "line": 10,
             "name": "the result should be 7",
-            "match": {
-              "arguments": [
-                {
-                  "val": "7",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.theResultShouldBe(java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-16T20:07:30.170Z",
+        "start_timestamp": "2021-06-17T13:50:43.949Z",
+        "before": [
+          {
+            "result": {
+              "duration": 930245000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
         "line": 12,
         "name": "4 subtract 3 is 1",
         "description": "",
         "id": "can-calculate-addition-and-subtraction-correctly?;4-subtract-3-is-1",
+        "after": [
+          {
+            "result": {
+              "duration": 3081501000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 158000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 13,
             "name": "a calculator",
-            "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.aCalculator()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 170000,
-              "status": "passed"
+              "duration": 89000,
+              "status": "skipped"
             },
             "line": 14,
             "name": "3 is subtracted from 4",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 0
-                },
-                {
-                  "val": "4",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.isSubtractedFrom(java.lang.Integer,java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 136000,
-              "status": "passed"
+              "duration": 224000,
+              "status": "skipped"
             },
             "line": 15,
             "name": "the result should be 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 21
-                }
-              ],
-              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateAdditionAndSubtraction.theResultShouldBe(java.lang.Integer)"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -274,52 +270,179 @@
     "tags": []
   },
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T20:07:30.175Z",
-        "line": 4,
-        "name": "Use Chromedriver to make a search on google",
+        "start_timestamp": "2021-06-17T13:50:47.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 914083000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Logging in successfully with credentials",
         "description": "",
-        "id": "navigating-and-searching-a-google-page;use-chromedriver-to-make-a-search-on-google",
+        "id": "testing-login-on-a-page;logging-in-successfully-with-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3083920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3061871000,
+              "duration": 1163528000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "Open Chrome and launch Google",
+            "line": 5,
+            "name": "user is on login page",
             "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.GoogleWebsiteSearch.openChromeAndLaunchGoogle()"
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 79150000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.qa.examples.cucumber_base.pages.LoginPage.enterUsername(String)\" because \"this.login\" is null\n\tat com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.user_enters_username_and_password(LoginHooks.java:48)\n\tat ✽.user enters \u003cusername\u003e and \u003cpassword\u003e(classpath:features/login_with_hooks.feature:6)\n",
+              "duration": 1066000,
+              "status": "failed"
             },
-            "line": 7,
-            "name": "typing website name on the search bar",
+            "line": 6,
+            "name": "user enters \u003cusername\u003e and \u003cpassword\u003e",
             "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.GoogleWebsiteSearch.typingWebsiteNameOnTheSearchBar()"
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 12
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 27
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.user_enters_username_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Davids-iMac.local\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/m2/flhb__9d1q7...}, goog:chromeOptions: {debuggerAddress: localhost:53548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d1a61c7dab34db6eec2574da424ab588\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\n\tat com.qa.examples.cucumber_base.step_definitions.GoogleWebsiteSearch.displayResults(GoogleWebsiteSearch.java:37)\n\tat ✽.display results(classpath:features/searching-google-page.feature:8)\n",
-              "duration": 6488249000,
-              "status": "failed"
+              "duration": 104000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks login",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.user_clicks_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000,
+              "status": "skipped"
             },
             "line": 8,
-            "name": "display results",
+            "name": "user is navigated to the home page",
             "match": {
-              "location": "com.qa.examples.cucumber_base.step_definitions.GoogleWebsiteSearch.displayResults()"
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.user_is_navigated_to_the_home_page()"
             },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T13:50:53.150Z",
+        "line": 10,
+        "name": "",
+        "description": "|username|  |password|\n|Gabriel|   |12345|\n|David|     |12345| ",
+        "id": "testing-login-on-a-page;",
+        "type": "scenario",
+        "keyword": "Example",
+        "steps": []
+      }
+    ],
+    "name": "Testing login on a Page",
+    "description": "",
+    "id": "testing-login-on-a-page",
+    "keyword": "Feature",
+    "uri": "classpath:features/login_with_hooks.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T13:50:53.152Z",
+        "before": [
+          {
+            "result": {
+              "duration": 875409000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Use Chromedriver to make a search on google",
+        "description": "",
+        "id": "navigating-and-searching-a-google-page;use-chromedriver-to-make-a-search-on-google",
+        "after": [
+          {
+            "result": {
+              "duration": 3082542000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.examples.cucumber_base.pages.login_definitions.LoginHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Open Chrome and launch Google",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "typing website name on the search bar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "display results",
+            "match": {},
             "keyword": "Then "
           }
         ]
