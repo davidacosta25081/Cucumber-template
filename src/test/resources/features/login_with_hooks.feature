@@ -7,7 +7,7 @@ When user enters <username> and <password>
 And user clicks login
 Then user is navigated to the home page
 
-Example:
-|username|  |password|
-|Gabriel|   |12345|
-|David|     |12345| 
+Examples:
+|username|password|
+|Gabriel |12345|
+|David   |12345| 

@@ -3,6 +3,7 @@ package com.qa.examples.cucumber_base.pages.login_definitions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.qa.examples.cucumber_base.hooks.Hooks;
 import com.qa.examples.cucumber_base.pages.LoginPage;
 
 import io.cucumber.java.After;
@@ -12,39 +13,35 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginHooks {
-   WebDriver webDriver;
+   WebDriver driver;
    LoginPage login;
    
-   @Before 
-    public void browserSetup() {
-	   
-	   System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-	   webDriver = new ChromeDriver();
-	    
-	   
-	   
-   }
+   
+   
+    public LoginHooks(Hooks hooks) {
+	  this.driver = hooks.getWebDriver() ;
+	}
 	
+   
    @After
 	public void teardown() throws InterruptedException {
-		if (webDriver != null) {
-			Thread.sleep(3000);
-			webDriver.quit();
+		if (driver != null) {
+			Thread.sleep(6000);
+			driver.quit();
 		}
 	}
 	
 	
-	
-
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-		webDriver.manage().window().fullscreen();
-		webDriver.get("https://example.testproject.io/web/"); 
+		driver.manage().window().fullscreen();
+		driver.get("https://example.testproject.io/web/"); 
 	  
 	}
 
-	@When("user enters (.*) and (.*)$")
+	@When("^user enters (.*) and (.*)$")
 	public void user_enters_username_and_password(String username, String password) {
+	login = new LoginPage(driver);
 	login.enterUsername(username);   
 	login.enterPassword(password);   
 	}
@@ -62,23 +59,5 @@ public class LoginHooks {
 	
 	
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
