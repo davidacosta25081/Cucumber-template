@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T19:55:06.552Z",
+        "start_timestamp": "2021-06-16T20:07:30.099Z",
         "line": 3,
         "name": "8 times 8 is 64",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1384000,
+              "duration": 1191000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 606000,
+              "duration": 711000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1121000,
+              "duration": 1221000,
               "status": "passed"
             },
             "line": 6,
@@ -66,7 +66,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-16T19:55:06.602Z",
+        "start_timestamp": "2021-06-16T20:07:30.154Z",
         "line": 9,
         "name": "30 divided by 6 is 5",
         "description": "",
@@ -76,7 +76,7 @@
         "steps": [
           {
             "result": {
-              "duration": 190000,
+              "duration": 170000,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 202000,
+              "duration": 164000,
               "status": "passed"
             },
             "line": 11,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 138000,
+              "duration": 124000,
               "status": "passed"
             },
             "line": 12,
@@ -140,7 +140,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T19:55:06.609Z",
+        "start_timestamp": "2021-06-16T20:07:30.161Z",
         "line": 7,
         "name": "3 add 4 is 7",
         "description": "",
@@ -150,7 +150,7 @@
         "steps": [
           {
             "result": {
-              "duration": 279000,
+              "duration": 282000,
               "status": "passed"
             },
             "line": 8,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 518000,
+              "duration": 622000,
               "status": "passed"
             },
             "line": 9,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 200000,
+              "duration": 153000,
               "status": "passed"
             },
             "line": 10,
@@ -203,7 +203,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-16T19:55:06.618Z",
+        "start_timestamp": "2021-06-16T20:07:30.170Z",
         "line": 12,
         "name": "4 subtract 3 is 1",
         "description": "",
@@ -213,7 +213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 153000,
+              "duration": 158000,
               "status": "passed"
             },
             "line": 13,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 147000,
+              "duration": 170000,
               "status": "passed"
             },
             "line": 14,
@@ -247,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 128000,
+              "duration": 136000,
               "status": "passed"
             },
             "line": 15,
@@ -277,7 +277,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-16T19:55:06.624Z",
+        "start_timestamp": "2021-06-16T20:07:30.175Z",
         "line": 4,
         "name": "Use Chromedriver to make a search on google",
         "description": "",
@@ -287,7 +287,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2799399000,
+              "duration": 3061871000,
               "status": "passed"
             },
             "line": 6,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 75312000,
+              "duration": 79150000,
               "status": "passed"
             },
             "line": 7,
@@ -311,8 +311,9 @@
           },
           {
             "result": {
-              "duration": 5648619000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d91.0.4472.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Davids-iMac.local\u0027, ip: \u0027192.168.1.2\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/m2/flhb__9d1q7...}, goog:chromeOptions: {debuggerAddress: localhost:53548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d1a61c7dab34db6eec2574da424ab588\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\n\tat com.qa.examples.cucumber_base.step_definitions.GoogleWebsiteSearch.displayResults(GoogleWebsiteSearch.java:37)\n\tat ✽.display results(classpath:features/searching-google-page.feature:8)\n",
+              "duration": 6488249000,
+              "status": "failed"
             },
             "line": 8,
             "name": "display results",
